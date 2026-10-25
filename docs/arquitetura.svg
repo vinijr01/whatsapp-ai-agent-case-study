@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1600" viewBox="0 0 1700 1600">
+<rect x="0" y="0" width="1700" height="1600" rx="0" fill="#FFFFFF" stroke="#FFFFFF"/>
+<rect x="0" y="0" width="1700" height="10" rx="0" fill="#79C4C7" stroke="#79C4C7"/>
+<text x="65" y="62" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#526A70">CASE TÉCNICO  /  ATENDIMENTO COMERCIAL</text>
+<text x="65" y="129" font-family="Segoe UI,Arial,sans-serif" font-size="43" font-weight="700" fill="#17363B">Arquitetura do atendimento</text>
+<text x="65" y="173.0" font-family="Segoe UI,Arial,sans-serif" font-size="23" font-weight="400" fill="#526A70">Visão simplificada das responsabilidades identificadas nos workflows exportados.</text>
+<rect x="580" y="225" width="540" height="105" rx="18" fill="#F2F8F7" stroke="#C5DBD9"/>
+<rect x="580" y="245" width="5" height="65" rx="2" fill="#79C4C7" stroke="#79C4C7"/>
+<text x="604" y="274.0" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#17363B">Cliente no WhatsApp</text>
+<rect x="580" y="390" width="540" height="120" rx="18" fill="#F2F8F7" stroke="#C5DBD9"/>
+<rect x="580" y="410" width="5" height="80" rx="2" fill="#79C4C7" stroke="#79C4C7"/>
+<text x="604" y="439.0" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#17363B">Evolution API + webhook n8n</text>
+<text x="604" y="480.75" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#526A70">Normalização dos campos e roteamento</text>
+<polyline points="850,330 850,390" fill="none" stroke="#526A70" stroke-width="2"/>
+<polygon points="850,390 855.5413501064978,379.3560609266486 844.4586498935022,379.3560609266486" fill="#526A70"/>
+<rect x="130" y="575" width="540" height="125" rx="18" fill="#F2F8F7" stroke="#C5DBD9"/>
+<rect x="130" y="595" width="5" height="85" rx="2" fill="#79C4C7" stroke="#79C4C7"/>
+<text x="154" y="624.0" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#17363B">Texto</text>
+<text x="154" y="665.75" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#526A70">Mensagem comum ou texto estendido</text>
+<rect x="1030" y="575" width="540" height="125" rx="18" fill="#F2F8F7" stroke="#C5DBD9"/>
+<rect x="1030" y="595" width="5" height="85" rx="2" fill="#79C4C7" stroke="#79C4C7"/>
+<text x="1054" y="624.0" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#17363B">Áudio</text>
+<text x="1054" y="665.75" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#526A70">Mídia &gt; arquivo &gt; Groq / Whisper (pt)</text>
+<polyline points="850,510 850,545 400,545 400,575" fill="none" stroke="#526A70" stroke-width="2"/>
+<polygon points="400,575 405.5413501064978,564.3560609266486 394.4586498935022,564.3560609266486" fill="#526A70"/>
+<polyline points="850,510 850,545 1300,545 1300,575" fill="none" stroke="#526A70" stroke-width="2"/>
+<polygon points="1300,575 1305.5413501064977,564.3560609266486 1294.4586498935023,564.3560609266486" fill="#526A70"/>
+<rect x="580" y="770" width="540" height="125" rx="18" fill="#F2F8F7" stroke="#C5DBD9"/>
+<rect x="580" y="790" width="5" height="85" rx="2" fill="#79C4C7" stroke="#79C4C7"/>
+<text x="604" y="819.0" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#17363B">Contexto de entrada</text>
+<text x="604" y="860.75" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#526A70">Consulta de pausa e buffer em Redis</text>
+<polyline points="400,700 400,735 850,735 850,770" fill="none" stroke="#526A70" stroke-width="2"/>
+<polygon points="850,770 855.5413501064978,759.3560609266486 844.4586498935022,759.3560609266486" fill="#526A70"/>
+<polyline points="1300,700 1300,735 850,735 850,770" fill="none" stroke="#526A70" stroke-width="2"/>
+<polygon points="850,770 855.5413501064978,759.3560609266486 844.4586498935022,759.3560609266486" fill="#526A70"/>
+<rect x="580" y="965" width="540" height="125" rx="18" fill="#F2F8F7" stroke="#C5DBD9"/>
+<rect x="580" y="985" width="5" height="85" rx="2" fill="#79C4C7" stroke="#79C4C7"/>
+<text x="604" y="1014.0" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#17363B">Agente orquestrador</text>
+<text x="604" y="1055.75" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#526A70">Modelo OpenAI + regras de atendimento</text>
+<polyline points="850,895 850,965" fill="none" stroke="#526A70" stroke-width="2"/>
+<polygon points="850,965 855.5413501064978,954.3560609266486 844.4586498935022,954.3560609266486" fill="#526A70"/>
+<rect x="50" y="960" width="430" height="150" rx="18" fill="#F2F8F7" stroke="#C5DBD9"/>
+<rect x="50" y="980" width="5" height="110" rx="2" fill="#79C4C7" stroke="#79C4C7"/>
+<text x="74" y="1009.0" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#17363B">PostgreSQL</text>
+<text x="74" y="1050.75" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#526A70">Memória da conversa e histórico por</text>
+<text x="74" y="1079.1" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#526A70">sessão</text>
+<polyline points="480,1025 580,1025" fill="none" stroke="#79C4C7" stroke-width="2" stroke-dasharray="7 5"/>
+<polygon points="580,1025 569.3560609266486,1019.4586498935022 569.3560609266486,1030.5413501064977" fill="#79C4C7"/>
+<rect x="1220" y="935" width="430" height="200" rx="18" fill="#F2F8F7" stroke="#C5DBD9"/>
+<rect x="1220" y="955" width="5" height="160" rx="2" fill="#79C4C7" stroke="#79C4C7"/>
+<text x="1244" y="984.0" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#17363B">Agentes especializados</text>
+<text x="1244" y="1025.75" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#526A70">Calendário</text>
+<text x="1244" y="1054.1" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#526A70">Catálogo</text>
+<text x="1244" y="1082.45" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#526A70">Financeiro</text>
+<polyline points="1120,1025 1220,1025" fill="none" stroke="#79C4C7" stroke-width="2" stroke-dasharray="7 5"/>
+<polygon points="1220,1025 1209.3560609266485,1019.4586498935022 1209.3560609266485,1030.5413501064977" fill="#79C4C7"/>
+<rect x="130" y="1200" width="625" height="150" rx="18" fill="#F2F8F7" stroke="#C5DBD9"/>
+<rect x="130" y="1220" width="5" height="110" rx="2" fill="#79C4C7" stroke="#79C4C7"/>
+<text x="154" y="1249.0" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#17363B">Resposta ao cliente</text>
+<text x="154" y="1290.75" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#526A70">Divisão em partes &gt; Evolution API &gt; WhatsApp</text>
+<rect x="945" y="1200" width="625" height="150" rx="18" fill="#F2F8F7" stroke="#C5DBD9"/>
+<rect x="945" y="1220" width="5" height="110" rx="2" fill="#79C4C7" stroke="#79C4C7"/>
+<text x="969" y="1249.0" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#17363B">Encaminhamento humano</text>
+<text x="969" y="1290.75" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#526A70">Histórico &gt; resumo &gt; notificação à responsável</text>
+<polyline points="850,1090 850,1150 442,1150 442,1200" fill="none" stroke="#526A70" stroke-width="2"/>
+<polygon points="442,1200 447.5413501064978,1189.3560609266485 436.4586498935022,1189.3560609266485" fill="#526A70"/>
+<polyline points="850,1090 850,1150 1257,1150 1257,1200" fill="none" stroke="#526A70" stroke-width="2"/>
+<polygon points="1257,1200 1262.5413501064977,1189.3560609266485 1251.4586498935023,1189.3560609266485" fill="#526A70"/>
+<rect x="65" y="1420" width="1570" height="112" rx="16" fill="#F2F8F7" stroke="#F2F8F7"/>
+<text x="88" y="1466.0" font-family="Segoe UI,Arial,sans-serif" font-size="24" font-weight="400" fill="#526A70">Redis e PostgreSQL têm papéis distintos. O encaminhamento notifica a pessoa responsável; a pausa do bot é controlada por outro caminho do</text>
+<text x="88" y="1498.4" font-family="Segoe UI,Arial,sans-serif" font-size="24" font-weight="400" fill="#526A70">workflow.</text>
+</svg>

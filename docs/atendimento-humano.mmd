@@ -1,0 +1,9 @@
+flowchart TD
+    C[Pedido do cliente ou regra do atendimento] --> A[Orquestrador chama ferramenta]
+    A --> N[Subworkflow recebe e normaliza dados]
+    N --> P[Consulta histórico em PostgreSQL]
+    P --> L[OpenAI produz resumo curto]
+    L --> E[Evolution API envia notificação com contexto]
+    E --> R[Responsável continua atendimento]
+    M[Evento de mensagem própria: fromMe] --> B[Redis: chave de pausa por 300 segundos]
+    B --> I[Fluxo principal consulta pausa antes de chamar IA]

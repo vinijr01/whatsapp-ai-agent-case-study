@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1450" viewBox="0 0 1600 1450">
+<rect x="0" y="0" width="1600" height="1450" rx="0" fill="#FFFFFF" stroke="#FFFFFF"/>
+<rect x="0" y="0" width="1600" height="10" rx="0" fill="#79C4C7" stroke="#79C4C7"/>
+<text x="65" y="62" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#526A70">CASE TÉCNICO  /  ATENDIMENTO COMERCIAL</text>
+<text x="65" y="129" font-family="Segoe UI,Arial,sans-serif" font-size="43" font-weight="700" fill="#17363B">Passagem para atendimento humano</text>
+<text x="65" y="173.0" font-family="Segoe UI,Arial,sans-serif" font-size="23" font-weight="400" fill="#526A70">O contexto acompanha a solicitação de continuidade do atendimento.</text>
+<rect x="90" y="240" width="84" height="84" rx="20" fill="#17363B" stroke="#17363B"/>
+<text x="109" y="291" font-family="Segoe UI,Arial,sans-serif" font-size="32" font-weight="700" fill="#FFFFFF">01</text>
+<rect x="220" y="240" width="1290" height="132" rx="18" fill="#F2F8F7" stroke="#C5DBD9"/>
+<rect x="220" y="260" width="5" height="92" rx="2" fill="#79C4C7" stroke="#79C4C7"/>
+<text x="244" y="289.0" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#17363B">Chamada da ferramenta</text>
+<text x="244" y="330.75" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#526A70">O orquestrador aciona o subworkflow de atendimento humano.</text>
+<polyline points="865,372 865,414" fill="none" stroke="#526A70" stroke-width="2"/>
+<polygon points="865,414 870.5413501064978,403.3560609266486 859.4586498935022,403.3560609266486" fill="#526A70"/>
+<rect x="90" y="414" width="84" height="84" rx="20" fill="#17363B" stroke="#17363B"/>
+<text x="109" y="465" font-family="Segoe UI,Arial,sans-serif" font-size="32" font-weight="700" fill="#FFFFFF">02</text>
+<rect x="220" y="414" width="1290" height="132" rx="18" fill="#F2F8F7" stroke="#C5DBD9"/>
+<rect x="220" y="434" width="5" height="92" rx="2" fill="#79C4C7" stroke="#79C4C7"/>
+<text x="244" y="463.0" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#17363B">Normalização</text>
+<text x="244" y="504.75" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#526A70">Organiza os dados da conversa recebidos do fluxo principal.</text>
+<polyline points="865,546 865,588" fill="none" stroke="#526A70" stroke-width="2"/>
+<polygon points="865,588 870.5413501064978,577.3560609266486 859.4586498935022,577.3560609266486" fill="#526A70"/>
+<rect x="90" y="588" width="84" height="84" rx="20" fill="#17363B" stroke="#17363B"/>
+<text x="109" y="639" font-family="Segoe UI,Arial,sans-serif" font-size="32" font-weight="700" fill="#FFFFFF">03</text>
+<rect x="220" y="588" width="1290" height="132" rx="18" fill="#F2F8F7" stroke="#C5DBD9"/>
+<rect x="220" y="608" width="5" height="92" rx="2" fill="#79C4C7" stroke="#79C4C7"/>
+<text x="244" y="637.0" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#17363B">Histórico PostgreSQL</text>
+<text x="244" y="678.75" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#526A70">Consulta as mensagens da sessão para compor o contexto.</text>
+<polyline points="865,720 865,762" fill="none" stroke="#526A70" stroke-width="2"/>
+<polygon points="865,762 870.5413501064978,751.3560609266486 859.4586498935022,751.3560609266486" fill="#526A70"/>
+<rect x="90" y="762" width="84" height="84" rx="20" fill="#17363B" stroke="#17363B"/>
+<text x="109" y="813" font-family="Segoe UI,Arial,sans-serif" font-size="32" font-weight="700" fill="#FFFFFF">04</text>
+<rect x="220" y="762" width="1290" height="132" rx="18" fill="#F2F8F7" stroke="#C5DBD9"/>
+<rect x="220" y="782" width="5" height="92" rx="2" fill="#79C4C7" stroke="#79C4C7"/>
+<text x="244" y="811.0" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#17363B">Resumo com OpenAI</text>
+<text x="244" y="852.75" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#526A70">Gera os pontos essenciais da conversa em uma mensagem curta.</text>
+<polyline points="865,894 865,936" fill="none" stroke="#526A70" stroke-width="2"/>
+<polygon points="865,936 870.5413501064978,925.3560609266486 859.4586498935022,925.3560609266486" fill="#526A70"/>
+<rect x="90" y="936" width="84" height="84" rx="20" fill="#17363B" stroke="#17363B"/>
+<text x="109" y="987" font-family="Segoe UI,Arial,sans-serif" font-size="32" font-weight="700" fill="#FFFFFF">05</text>
+<rect x="220" y="936" width="1290" height="132" rx="18" fill="#F2F8F7" stroke="#C5DBD9"/>
+<rect x="220" y="956" width="5" height="92" rx="2" fill="#79C4C7" stroke="#79C4C7"/>
+<text x="244" y="985.0" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#17363B">Notificação pela Evolution API</text>
+<text x="244" y="1026.75" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#526A70">Envia à responsável o resumo e a referência de contato.</text>
+<rect x="90" y="1165" width="1420" height="195" rx="20" fill="#F2F8F7" stroke="#C5DBD9"/>
+<text x="120" y="1219" font-family="Segoe UI,Arial,sans-serif" font-size="29" font-weight="700" fill="#17363B">Pausa do bot: um caminho separado</text>
+<text x="120" y="1266.0" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="400" fill="#526A70">Evento fromMe &gt; chave Redis com TTL de 300 s &gt; consulta no fluxo principal. O subworkflow de notificação não cria</text>
+<text x="120" y="1301.1" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="400" fill="#526A70">essa chave diretamente.</text>
+</svg>

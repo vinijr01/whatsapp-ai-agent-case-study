@@ -1,0 +1,15 @@
+flowchart TD
+    W[Cliente no WhatsApp] --> E[Evolution API / Webhook n8n]
+    E --> N[Normalização e roteamento]
+    N --> T[Texto]
+    N --> A[Áudio: mídia e transcrição Groq/Whisper]
+    T --> C[Mensagem comum e consulta de pausa]
+    A --> C
+    C --> B[Buffer temporário Redis]
+    B --> O[Agente orquestrador OpenAI]
+    P[(Histórico PostgreSQL)] <--> O
+    O <--> S[Agentes: calendário / catálogo / financeiro]
+    O --> R[Divisão da resposta e Evolution API]
+    R --> W
+    O --> H[Subworkflow humano: histórico / resumo / notificação]
+    H --> V[Responsável pelo atendimento]

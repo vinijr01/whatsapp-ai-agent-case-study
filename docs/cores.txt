@@ -1,0 +1,28 @@
+NB STORE — PALETA EXTRAÍDA DA REFERÊNCIA
+
+Fonte: foto de referencia para cores.jpg, fornecida pelo usuário.
+Esta é uma paleta de referência extraída da imagem, não um manual oficial da marca.
+Os valores de apoio representam áreas da arte com iluminação e variação de cor.
+
+PRINCIPAL
+Turquesa do fundo: #79C4C7
+RGB: 121, 196, 199
+Extração: cor presente nos 7.000 pixels da região superior esquerda (100 x 70 px).
+
+APOIO — PRESENTE VERDE NA ARTE
+Verde médio: #13766A
+Verde luminoso: #0CB197
+Verde profundo: #0B5248
+
+NEUTROS
+Branco suave da tipografia: #EDF6F7
+Cinza do monograma na referência: #84868E
+
+SUGESTÃO DE USO
+Turquesa em fundos e destaques; verde profundo para contraste; branco para áreas claras.
+Os verdes de apoio foram amostrados da caixa de presente, não confirmados como cores institucionais.
+As cores do WhatsApp nas demonstrações seguem a interface do aplicativo, não esta paleta.
+
+MÉTODO
+Leitura dos pixels da imagem original com Pillow; cores de apoio obtidas por
+quantização de recortes do presente, tipografia e monograma.
