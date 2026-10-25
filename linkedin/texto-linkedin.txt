@@ -1,0 +1,25 @@
+NB Store: cinco meses de uso de um agente de IA para atendimento no WhatsApp
+
+Em um projeto desenvolvido pela Diagonal Tech para a NB Store, construí uma automação para receber mensagens, interpretar solicitações e direcionar o atendimento conforme as regras do negócio.
+
+A cliente utilizou o agente durante cinco meses, usando todas as funcionalidades da solução.
+
+A arquitetura reúne:
+• n8n para orquestração dos workflows;
+• Evolution API para comunicação com o WhatsApp;
+• transcrição de áudio com Groq/Whisper;
+• modelos OpenAI para interpretação e agentes especializados;
+• PostgreSQL para histórico conversacional;
+• Redis para buffer e controle temporário do atendimento.
+
+Um ponto que destaco é o encaminhamento humano: o fluxo consulta o histórico, gera um resumo e notifica a responsável pela loja, levando o contexto da conversa para quem vai continuar o atendimento.
+
+O projeto também me trouxe aprendizados sobre separação de responsabilidades. Interpretar uma mensagem, consultar uma agenda, tratar uma informação financeira e encaminhar uma conversa são tarefas diferentes e precisam de controles próprios.
+
+No documento anexo, organizei a arquitetura e as principais decisões técnicas desse projeto. A divulgação do nome e da logo da NB Store foi autorizada.
+
+Os cinco meses de uso fazem parte da experiência do projeto. Volume de mensagens, economia de tempo e impacto em vendas não foram medidos neste case.
+
+Case técnico completo: https://github.com/vinijr01/whatsapp-ai-agent-case-study
+
+#n8n #Automacao #InteligenciaArtificial #APIs #WhatsApp #PostgreSQL
