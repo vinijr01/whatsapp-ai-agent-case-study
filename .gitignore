@@ -1,0 +1,9 @@
+# Material público de documentação; exports privados ficam fora desta pasta.
+.env
+.env.*
+!.env.example
+*.json
+*prompt*.txt
+__pycache__/
+Thumbs.db
+.DS_Store
